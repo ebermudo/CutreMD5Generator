@@ -1,7 +1,8 @@
-import { Component, ViewChild } from '@angular/core';
+
 import { Md5 } from 'ts-md5';
 import { Clipboard } from '@capacitor/clipboard';
 import { AlertController } from '@ionic/angular';
+import { Component, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-home',
